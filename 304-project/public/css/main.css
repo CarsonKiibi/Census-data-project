@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:wght@400;700&display=swap');
+
+/* 
+colors : #6667ab
+#cc2936
+#f5f0f6
+*/
+
+body {
+    background-color: #f5f0f6; 
+    /*background-image: linear-gradient(#f5f0f6, #6667ab) */
+}
+
+.info {
+    text-align: center;
+    margin: 30px 80px 0px 80px;
+    line-height: 28px;
+    color: #6e6e6e;
+}
+i {
+    color: #4a4a4a;
+    font-weight: 500;
+}
+.nav-link {
+    margin: 1% 3%;
+    padding: 3px;
+}
+.nav-link:hover {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5px;;
+}
+.header {
+    background-color: #cc2936;
+}
+
+.form-select {
+    width: 150px;
+    margin: 8px;
+}
+.form-select:hover {
+    background-color: #f5f0f6;
+}
+.btn {
+    background-color: #cc2936;
+    height: 40px;
+    margin: 8px;
+}
+.btn:hover {
+    background-color: #c42330;
+}
+/* why doesnt this work */
+.btn:active {
+    background-color: #cc2936;
+}
+/*
+
+.container-fluid {
+    padding: 0px;
+    background-color: #cc2936;
+}
+*/
+.container-box {
+    padding: 8px;
+    margin: 4px 4px 4px 4px;
+    background-color: #6667ab;
+    border-radius: 8px;
+    width: calc(100% - 8px);
+}
+
+.table-bordered {
+    margin: 5px;
+    width: calc(100% - 10px);
+    background-color: white;
+}
+
+td, th {
+    padding: 5px;
+}
+tr:hover {
+    background-color: #f5f0f6;
+}
+
+.top-caption {
+    caption-side: top;
+}
+
+caption {
+    margin-left: 10px;
+}
