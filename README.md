@@ -1,6 +1,21 @@
 # Canadian Census Data Project
 **Carson Kyba, Katie Louie (louiekat), Linus Moreau (lhlafont)**
 
+## Setup 
+This project uses PHP 8.2.11, Composer 2.6.5, and Laravel 10.29.0. Make sure you have those installed and check with
+```
+php artisan about
+```
+
+To initialize the database (create tables, load data)
+```
+php artisan app:start
+```
+To run the project
+```
+php artisan serve
+```
+
 The original repository was created using university credentials and our university github. As a result it will likely be deleted in the future, so I made this new repo.
 No edits have been made other than to the readme.
 
